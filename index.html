@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05090a">
+  <meta name="description" content="GENESIS — Computational Genetics & Evolution Laboratory. An educational laboratory for comparative biology, transparent computational models and speculative evolutionary scenarios.">
+  <title>GENESIS — Computational Genetics & Evolution Laboratory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="app-shell">
+    <aside class="sidebar" aria-label="GENESIS laboratory navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">G</div>
+        <div>
+          <div class="brand-name">GENESIS</div>
+          <div class="brand-sub">COMPUTATIONAL GENETICS LAB</div>
+        </div>
+      </div>
+
+      <div class="status-line"><span class="status-dot" aria-hidden="true"></span><span>SYSTEM READY</span><span class="mono">v0.6</span></div>
+
+      <nav>
+        <div class="nav-group">
+          <div class="nav-label">LABORATORY</div>
+          <button class="nav-item active" data-view="overview"><span>01</span>Overview</button>
+          <button class="nav-item" data-view="organisms"><span>02</span>Organism Archive</button>
+          <button class="nav-item" data-view="comparison"><span>03</span>Comparative Analysis</button>
+          <button class="nav-item" data-view="sync"><span>04</span>Synchronization</button>
+          <button class="nav-item" data-view="perturbation"><span>05</span>Perturbation Lab</button>
+          <button class="nav-item" data-view="evolution"><span>06</span>Evolution Scenario</button>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">WORKSPACE</div>
+          <button class="nav-item" data-view="notebook"><span>07</span>Experiment Notebook</button>
+          <button class="nav-item" data-view="question"><span>08</span>Research Question</button>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">SYSTEM</div>
+          <button class="nav-item" data-view="methodology"><span>09</span>Methodology & Data</button>
+        </div>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="author-mini">
+          <div class="author-kicker">CONCEPT & RESEARCH DIRECTION</div>
+          <strong>Dhvan Shah</strong>
+          <span>Independent student concept · visualization · development</span>
+        </div>
+        <div class="sidebar-note">Educational computational simulation. Not a clinical, diagnostic or genetic-engineering system.</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div id="breadcrumbs" class="breadcrumbs">GENESIS / OVERVIEW</div>
+        <div class="top-actions">
+          <div id="experiment-pill" class="experiment-pill">NO ACTIVE EXPERIMENT</div>
+          <button id="reset-btn" class="ghost-btn" type="button">RESET WORKSPACE</button>
+        </div>
+      </header>
+
+      <div id="view" class="view" aria-live="polite"></div>
+
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <script type="module" src="engine/app.js"></script>
+</body>
+</html>

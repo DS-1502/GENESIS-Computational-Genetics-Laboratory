@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use GENESIS in academic, educational, or software work, please cite the project."
+title: "GENESIS — Computational Genetics & Evolution Laboratory"
+type: software
+version: 0.3.0
+date-released: 2026-09-22
+license: MIT
+authors:
+  - family-names: Shah
+    given-names: Dhvan
+    affiliation: Independent student project
+repository-code: "https://github.com/REPLACE_WITH_DHVAN_GITHUB/GENESIS"
+abstract: "A browser-based educational computational biology laboratory for comparative organism analysis, transparent simulation, and evolutionary thought experiments."

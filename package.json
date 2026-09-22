@@ -1,0 +1,13 @@
+{
+  "name": "genesis-computational-genetics-lab",
+  "version": "0.6.0",
+  "private": true,
+  "description": "GENESIS \u2014 Computational Genetics & Evolution Laboratory",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/smoke.mjs",
+    "check": "node --check engine/core.js && node --check engine/app.js && node --check data/organisms.js && node --check data/sources.js",
+    "verify": "npm run check && npm test",
+    "start": "node scripts/serve.mjs"
+  }
+}
