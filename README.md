@@ -1,3 +1,18 @@
+# GENESIS — Computational Genetics & Evolution Laboratory
+
+> An interactive computational laboratory for comparative biology, sequence analysis, biological-system simulation, and evolutionary modeling.
+
+<p align="center">
+
+## 🧬 [LAUNCH GENESIS LABORATORY](https://ds-1502.github.io/GENESIS-Computational-Genetics-Laboratory/)
+
+
+**Live Interactive Laboratory · Open in Browser**
+
+</p>
+
+---
+
 # GENESIS
 ## Computational Genetics & Evolution Laboratory
 
